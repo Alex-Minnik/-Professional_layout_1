@@ -1038,22 +1038,20 @@ details[open] .product__sidebar__text {
 }
 .women_colection__button:hover .cart_red {
   background-color: #ffffff;
-  mask-image: url('img/cart_red.svg');
-  -webkit-mask-box-image: url('img/cart_red.svg');
+  display: none;
 }
 .cart_red {
   width: 26px;
   height: 24px;
   margin: 15px;
-  mask: url('img/cart_red.svg');
-  mask-image: url('img/cart_red.svg');
-  background-color: #ef5b70;
-  -webkit-mask-box-image: url('img/cart_red.svg');
-  -webkit-mask-image: url('img/cart_red.svg');
+  display: block;
 }
 .cart_white {
   display: none;
   padding: 15px;
+}
+.women_colection__button:hover .cart_white {
+  display: block;
 }
 .product_description {
   position: relative;
@@ -1625,4 +1623,10 @@ details[open] .product__sidebar__text {
   color: #f16d7f;
   background-color: #ffffff;
   border: 1px solid #f16d7f;
+}
+.drop__link__product__delete {
+  color: #c0c0c0;
+}
+.drop__box {
+  display: block;
 }
