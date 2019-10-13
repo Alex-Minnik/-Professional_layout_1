@@ -1630,3 +1630,6 @@ details[open] .product__sidebar__text {
 .drop__box {
   display: block;
 }
+.drop__drop__width {
+  width: 516px;
+}
