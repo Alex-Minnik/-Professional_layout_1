@@ -197,21 +197,23 @@ a {
 }
 
 .product__block {
-    height: 364px;
+    height: 361px;
     width: 261px;
     padding-bottom: 9px;
     margin-bottom: 39px;
     position: relative;
+    background-color: #fff;    
 }
 
 .product__block:hover {
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-    background-color: #ffffff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);    
 }
 
+
+
 .product__block:hover .product__block__img {
-    filter: brightness(50%);
     transition: all 0.3s;
+    opacity: 0.5;
 }
 
 .product__block:hover .product__add {
@@ -2004,4 +2006,9 @@ text-transform: uppercase;
 
 .hover:hover {
    
+}
+
+.product__block__box {
+    background-color: #000;
+    height: 280px;
 }
