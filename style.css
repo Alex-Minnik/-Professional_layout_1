@@ -503,6 +503,13 @@ a {
 .browse:hover {
   cursor: pointer;
 }
+.browse:hover .drop {
+  display: block;
+  z-index: 1;
+  top: 70px;
+  text-align: left;
+  line-height: 17px;
+}
 .browse__input {
   width: 280px;
   height: 38px;
