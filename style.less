@@ -107,8 +107,9 @@ a {
 }
 
 .category__accesories {
-    background-color: #dadad2;
+    background-color: #000;
     height: 261px;
+    position: relative;
 }
 
 .category__layer {
@@ -123,12 +124,15 @@ a {
     background-color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
+    top: 0px;
 }
 
+
 .category__men {
-    background-image: url(img/Layer_men.jpg);
+    background-color: #000;
     height: 542px;
     width: 560px;
+    position: relative;
 }
 
 .category__accesories__img {
@@ -139,15 +143,17 @@ a {
 }
 
 .category__women {
-    background-image: url(img/Layer_women.jpg);
+    background-color: #000;
     height: 261px;
     width: 560px;
+    position: relative;
 }
 
 .category__kids {
-    background-image: url(img/Layer_kids.jpg);
+    background-color: #000;
     height: 542px;
     width: 560px;
+    position: relative;
 }
 
 .layer__text__up {
@@ -832,9 +838,9 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid #f16d7f;
 }
 
-.category__hover:hover {
-    filter: brightness(50%);
-    transition: all 0.3s;
+.category__hover:hover .category__img {     
+    opacity: 0.5;
+    transition: all 0.3s;    
 }
 
 .browse__submit {
@@ -1994,4 +2000,8 @@ text-transform: uppercase;
 
 .drop__drop__width {
     width: 516px;
+}
+
+.hover:hover {
+   
 }
