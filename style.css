@@ -1649,3 +1649,18 @@ details[open] .product__sidebar__text {
   background-color: #000;
   height: 280px;
 }
+.product__main__select__box__range {
+  width: 262px;
+}
+.product__main__select__box__text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.product__main__select__box__p {
+  color: #6f6e6e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
