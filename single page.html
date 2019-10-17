@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container header__content">
             <div class="header__left">
                 <a class="logo" href="index.html"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="header__D">D</span></a>
@@ -80,7 +80,7 @@
                 <a class="button" href="checkout.html">My Account</a>
             </div>
         </div>
-    </div>
+    </header>
     <nav class="nav">
         <div class="container nav__content">
             <ul class="menu">
@@ -240,7 +240,7 @@
         <a class="image_slide__pagination"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
     </div>
     <div class="product_description">
-        <div class="container product_description__container">
+        <section class="container product_description__container">
             <h3 class="women_collection__h3">WOMEN COLLECTION</h3>
             <p class="slogan__p">Moschino Cheap And Chic</p>
             <p class="women_collection__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
@@ -276,11 +276,8 @@
                 </div>
                 <div class="women_collection__choice_product__choice women_collection__choice_product__choice__last">
                     <p class="women_collection__choice_product__text">QUANTITY</p>
-                    <select class="women_collection__choice_product__select" name="QUANTITY">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
+                    <input class="women_collection__choice_product__select" name="QUANTITY" type="number" min="1" value="1">
+                    
                 </div>
             </div>
             <div class="women_colection__button">
@@ -288,8 +285,8 @@
                 <img class="cart_white" src="img/cart_white.svg" alt="cart_white">
                 Add to Cart
             </div>
-        </div>
-        <div class="you_may_like_also container">
+        </section>
+        <section class="you_may_like_also container">
             <h2 class="you_may_like_also__h2">you may like also</h2>
             <div class="you_may_like_also__product">
                 <a href="single%20page.html">
@@ -337,7 +334,7 @@
                     </div>
                 </a>
             </div>
-        </div>
+        </section>
     </div>
     <div class="subscribe">
         <div class="container subscribe__container">
@@ -407,7 +404,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="container footer__footer">
             <div class="copyright">&copy; 2017 Brand All Rights Reserved.</div>
             <div class="social_networks">
@@ -433,7 +430,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>

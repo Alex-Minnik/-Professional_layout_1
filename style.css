@@ -1042,6 +1042,7 @@ details[open] .product__sidebar__text {
   justify-content: center;
   align-items: center;
   margin-bottom: 122px;
+  transition: all 0.3s;
 }
 .women_colection__button:hover {
   cursor: pointer;
@@ -1147,6 +1148,7 @@ details[open] .product__sidebar__text {
   font-size: 16px;
   font-weight: bold;
   line-height: 44px;
+  transition: all 0.3s;
 }
 .pagination__right:hover {
   color: #ffffff;
@@ -1222,6 +1224,7 @@ details[open] .product__sidebar__text {
   text-align: center;
   line-height: 50px;
   margin-top: 32px;
+  transition: all 0.3s;
 }
 .drop__checkout:hover {
   color: #ffffff;
@@ -1240,6 +1243,7 @@ details[open] .product__sidebar__text {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  transition: all 0.3s;
 }
 .drop__goToCart:hover {
   color: #ffffff;
@@ -1291,6 +1295,10 @@ details[open] .product__sidebar__text {
   text-transform: uppercase;
   margin-left: 14px;
 }
+.shippingAddress__summary__left__radio__text:hover {
+  cursor: pointer;
+  color: #b3b2b2;
+}
 .shippingAddress__summary__left__h5__afterForm {
   margin-top: 33px;
 }
@@ -1311,6 +1319,7 @@ details[open] .product__sidebar__text {
   text-transform: uppercase;
   margin: 32px 32px 0 0;
   background-color: #ffffff;
+  transition: all 0.3s;
 }
 .shippingAddress__summary__left__button:hover {
   background-color: #4a4a4a;
@@ -1336,6 +1345,7 @@ details[open] .product__sidebar__text {
   font-weight: 400;
   line-height: 24px;
   outline: none;
+  padding-left: 17px;
 }
 .women_collection__choice_product__choice__last {
   margin-right: 0;
@@ -1381,6 +1391,13 @@ details[open] .product__sidebar__text {
   border: 1px solid #eaeaea;
   margin-bottom: 22px;
   font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15PX;
+  color: #b1b1b1;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  outline: none;
 }
 .shippingAddress__summary__right__form__p__star {
   color: #ff0d0d;
@@ -1527,6 +1544,7 @@ details[open] .product__sidebar__text {
   text-transform: uppercase;
   padding: 20px 39px 18px;
   border: 1px solid #eaeaea;
+  transition: all 0.3s;
 }
 .shopingCartButton:hover {
   background-color: #4a4a4a;
@@ -1566,6 +1584,7 @@ details[open] .product__sidebar__text {
   font-weight: 300;
   outline: none;
   padding-left: 18px;
+  padding-right: 18px;
   -webkit-appearance: none;
 }
 .shopingCartContent__buy__inputData__field__input {
@@ -1582,6 +1601,7 @@ details[open] .product__sidebar__text {
   text-transform: uppercase;
   margin-top: 22px;
   display: inline-block;
+  transition: all 0.3s;
 }
 .shopingCartContent__buy__inputData__button:hover {
   background-color: #4a4a4a;
@@ -1630,6 +1650,7 @@ details[open] .product__sidebar__text {
   justify-content: center;
   align-items: center;
   border: 1px solid #f16d7f;
+  transition: all 0.3s;
 }
 .shopingCartContent__buy__proceedToCheck__button:hover {
   color: #f16d7f;
@@ -1663,4 +1684,17 @@ details[open] .product__sidebar__text {
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+}
+.shopingCartContent__quantity__input {
+  width: 47px;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  text-align: right;
+  color: #656565;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-right: 7px;
+  outline: none;
 }
